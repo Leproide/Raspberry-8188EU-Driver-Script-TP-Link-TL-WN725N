@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Script by Leprechaun
+# leproide@paranoici.org
+
 # Check root
 if [ “$(id -u)” != “0” ]; then
 tput setaf 1; tput bold; echo -e '\nPlease run as root\n' 2>&1
