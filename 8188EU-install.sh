@@ -2,7 +2,7 @@
 
 # Check root
 if [ “$(id -u)” != “0” ]; then
-tput setaf 1; tput bold; echo -e '\nQuesto script va avviato come root\n' 2>&1
+tput setaf 1; tput bold; echo -e '\nPlease run as root\n' 2>&1
 exit 1
 fi
 
